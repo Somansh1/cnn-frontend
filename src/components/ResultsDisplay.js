@@ -49,16 +49,16 @@ export const ResultsDisplay = ({ result, language }) => {
     const diseaseRecommendations = {
       en: {
         "black rot":
-          "Apply fungicide immediately. Remove infected fruits and leaves. Improve air circulation around trees.",
-        "apple scab": "Use fungicide spray. Remove fallen leaves. Prune for better air circulation.",
-        "cedar apple rust": "Apply preventive fungicide in spring. Remove nearby cedar trees if possible.",
+          "Use Captan or Topsin-M during early fruit development and after pruning. Remove any infected fruit or twigs.",
+        "apple scab": "Apply Myclobutanil (e.g., Spectracide Immunox) or Captan early in the season. Ensure thorough coverage and follow label directions.",
+        "cedar apple rust": Apply Myclobutanil at 7–10 day intervals during spring. Remove nearby cedar trees if possible.",
         healthy: "Your apple plant appears healthy! Continue with regular care and monitoring.",
         default: "Disease detected. Consult with agricultural experts for specific treatment options.",
       },
       hi: {
-        "black rot": "तुरंत ففूंदनाशक लगाएं। संक्रमित फल और पत्तियों को हटा दें। पेड़ों के चारों ओर हवा का संचार बेहतर बनाएं।",
-        "apple scab": "फफूंदनाशक स्प्रे का उपयोग करें। गिरी हुई पत्तियों को हटा दें। बेहतर हवा के संचार के लिए छंटाई करें।",
-        "cedar apple rust": "वसंत में रोकथाम फफूंदनाशक लगाएं। यदि संभव हो तो पास के देवदार के पेड़ों को हटा दें।",
+        "black rot": "फल बनने की शुरुआती अवस्था और कटाई के बाद कैप्टन या टॉपसिन-एम का उपयोग करें। संक्रमित फल या टहनियों को हटा दें",
+        "apple scab": "सीज़न की शुरुआत में मायक्लोब्यूटानिल (जैसे Spectracide Immunox) या कैप्टन का छिड़काव करें। अच्छी तरह से छिड़काव करें और दवा के निर्देशों का पालन करें",
+        "cedar apple rust": "वसंत ऋतु में हर 7–10 दिनों में मायक्लोब्यूटानिल का छिड़काव करें। यदि संभव हो तो पास के देवदार के पेड़ हटा दें।",
         healthy: "आपका सेब का पौधा स्वस्थ दिखता है! नियमित देखभाल और निगरानी जारी रखें।",
         default: "बीमारी का पता चला है। विशिष्ट उपचार विकल्पों के लिए कृषि विशेषज्ञों से सलाह लें।",
       },

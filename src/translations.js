@@ -37,7 +37,7 @@ export const translations = {
     step3Description: "Receive instant diagnosis and recommendations",
 
     // Footer
-    footerText: "© 2024 AppleHealth AI. Helping farmers grow healthier orchards.",
+    footerText: "© 2025 AppDLiteNet. Helping farmers grow healthier orchards.",
   },
 
   hi: {
@@ -78,6 +78,6 @@ export const translations = {
     step3Description: "तुरंत निदान और सुझाव प्राप्त करें",
 
     // Footer
-    footerText: "© 2024 एप्पलहेल्थ AI. किसानों को स्वस्थ बगीचे उगाने में मदद करना।",
+    footerText: "© 2025 AppDLiteNet. किसानों को स्वस्थ बगीचे उगाने में मदद करना।",
   },
 }
