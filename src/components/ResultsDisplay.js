@@ -51,7 +51,7 @@ export const ResultsDisplay = ({ result, language }) => {
         "black rot":
           "Use Captan or Topsin-M during early fruit development and after pruning. Remove any infected fruit or twigs.",
         "apple scab": "Apply Myclobutanil (e.g., Spectracide Immunox) or Captan early in the season. Ensure thorough coverage and follow label directions.",
-        "cedar apple rust": Apply Myclobutanil at 7–10 day intervals during spring. Remove nearby cedar trees if possible.",
+        "cedar apple rust": "Apply Myclobutanil at 7–10 day intervals during spring. Remove nearby cedar trees if possible.",
         healthy: "Your apple plant appears healthy! Continue with regular care and monitoring.",
         default: "Disease detected. Consult with agricultural experts for specific treatment options.",
       },
