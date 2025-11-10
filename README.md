@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# cnn-frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![GitHub issues](https://img.shields.io/github/issues/Somansh1/cnn-frontend)](https://github.com/Somansh1/cnn-frontend/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Somansh1/cnn-frontend)](https://github.com/Somansh1/cnn-frontend/network)
+[![GitHub stars](https://img.shields.io/github/stars/Somansh1/cnn-frontend)](https://github.com/Somansh1/cnn-frontend/stargazers)
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+**cnn-frontend** is a modern front-end project primarily written in JavaScript and TypeScript. It likely serves as the user interface for a Convolutional Neural Network (CNN) related application, providing interactive visualizations, user controls, or data input features for CNN-based tasks.
 
-### `npm start`
+## Language Composition
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **JavaScript:** 49.7%
+- **TypeScript:** 24.6%
+- **CSS:** 22.3%
+- **HTML:** 3.4%
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Responsive and interactive UI components
+- Integration with CNN-related APIs or backend services
+- Modular code structure using JavaScript and TypeScript
+- Custom styles using CSS
+- Semantic HTML for accessibility
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Node.js](https://nodejs.org/) (Recommended version >= 14)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/Somansh1/cnn-frontend.git
+cd cnn-frontend
+npm install
+# or
+yarn install
+```
 
-### `npm run eject`
+### Running the Development Server
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm start
+# or
+yarn start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The application will usually be available at [http://localhost:3000](http://localhost:3000) unless otherwise specified.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Building for Production
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm run build
+# or
+yarn build
+```
 
-## Learn More
+## Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+src/
+  components/
+  pages/
+  styles/
+  App.tsx
+public/
+package.json
+README.md
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `src/` — Main source code (JavaScript / TypeScript, CSS)
+- `public/` — Static files
+- `package.json` — Project scripts and dependencies
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions are welcome! Please open an issue or submit a pull request for bugs, enhancements, or new features.
 
-### Analyzing the Bundle Size
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a pull request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+This project is licensed under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> **Note:** If you have more specific information about the project's purpose and features, please update this README accordingly.
