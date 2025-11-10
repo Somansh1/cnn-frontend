@@ -6,7 +6,7 @@
 
 ## Overview
 
-**cnn-frontend** is a modern front-end project primarily written in JavaScript and TypeScript. It likely serves as the user interface for a Convolutional Neural Network (CNN) related application, providing interactive visualizations, user controls, or data input features for CNN-based tasks.
+**cnn-frontend** is a modern front-end project primarily written in JavaScript and TypeScript. It serves as the user interface for a Convolutional Neural Network (CNN) related application, providing interactive visualizations, user controls, or data input features for CNN-based tasks.
 
 ## Language Composition
 
