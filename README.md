@@ -1,94 +1,64 @@
-# cnn-frontend
+# Apple Leaf Disease Detection — Frontend
 
-[![GitHub issues](https://img.shields.io/github/issues/Somansh1/cnn-frontend)](https://github.com/Somansh1/cnn-frontend/issues)
-[![GitHub forks](https://img.shields.io/github/forks/Somansh1/cnn-frontend)](https://github.com/Somansh1/cnn-frontend/network)
-[![GitHub stars](https://img.shields.io/github/stars/Somansh1/cnn-frontend)](https://github.com/Somansh1/cnn-frontend/stargazers)
+React frontend for a real-time plant disease classifier. Upload a leaf image and get instant predictions across 38 disease classes with per-class confidence scores, powered by a custom CNN trained on the [PlantVillage dataset](https://www.tensorflow.org/datasets/catalog/plant_village).
 
-## Overview
+**Live demo:** [app-dlite-net.vercel.app](https://app-dlite-net.vercel.app)  
+**Backend repo:** [cnn-backend](https://github.com/Somansh1/cnn-backend)
 
-**cnn-frontend** is a modern front-end project primarily written in JavaScript and TypeScript. It serves as the user interface for a Convolutional Neural Network (CNN) related application, providing interactive visualizations, user controls, or data input features for CNN-based tasks.
+---
 
-## Language Composition
+## What it does
 
-- **JavaScript:** 49.7%
-- **TypeScript:** 24.6%
-- **CSS:** 22.3%
-- **HTML:** 3.4%
+- Upload any apple leaf image (drag-and-drop or file picker)
+- Sends the image to the Flask inference API
+- Displays the top predicted disease class with confidence scores across all 38 classes
+- Responsive layout — works on desktop and mobile
 
-## Features
+## Tech stack
 
-- Responsive and interactive UI components
-- Integration with CNN-related APIs or backend services
-- Modular code structure using JavaScript and TypeScript
-- Custom styles using CSS
-- Semantic HTML for accessibility
+- **React** with TypeScript
+- **CSS** (custom, no UI framework)
+- Deployed on **Vercel**
 
-## Getting Started
+## Getting started
 
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (Recommended version >= 14)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-
-### Installation
+**Prerequisites:** Node.js >= 14, npm or yarn
 
 ```bash
 git clone https://github.com/Somansh1/cnn-frontend.git
 cd cnn-frontend
 npm install
-# or
-yarn install
 ```
 
-### Running the Development Server
+Create a `.env` file in the root and point it at your backend:
+
+```
+REACT_APP_API_URL=http://localhost:5000
+```
+
+For the live demo, this is already set to the deployed backend on Render/Heroku.
 
 ```bash
-npm start
-# or
-yarn start
+npm start        # dev server at http://localhost:3000
+npm run build    # production build
 ```
 
-The application will usually be available at [http://localhost:3000](http://localhost:3000) unless otherwise specified.
-
-### Building for Production
-
-```bash
-npm run build
-# or
-yarn build
-```
-
-## Project Structure
+## Project structure
 
 ```
 src/
-  components/
-  pages/
-  styles/
+  components/    # ImageUploader, PredictionCard, ConfidenceBar
+  pages/         # Home
+  styles/        # Global and component CSS
   App.tsx
 public/
-package.json
-README.md
 ```
 
-- `src/` — Main source code (JavaScript / TypeScript, CSS)
-- `public/` — Static files
-- `package.json` — Project scripts and dependencies
+## Related
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for bugs, enhancements, or new features.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a pull request
+- **Model:** Custom CNN, 18 MB, 99.16% accuracy on PlantVillage test set
+- **Backend:** Flask API serving a `.h5` Keras model — see [cnn-backend](https://github.com/Somansh1/cnn-backend)
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-> **Note:** If you have more specific information about the project's purpose and features, please update this README accordingly.
+MIT
